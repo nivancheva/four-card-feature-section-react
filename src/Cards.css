@@ -68,5 +68,23 @@ img {
 }
 
 @media (min-width: 801px) {
-  
+    .card-color-cyan {
+        grid-area: 3 / 1;
+        grid-row: 2 / span 2;
+    }
+    
+    .card-color-red {
+        grid-area: 1 / 2;
+        grid-row: span 2;
+    }
+    
+    .card-color-orange {
+        grid-area: 3 / 2;
+        grid-row: span 2;
+    }
+    
+    .card-color-blue {
+        grid-area: 3 / 3;
+        grid-row: 2 / span 2;
+    }
 }
