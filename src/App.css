@@ -26,15 +26,24 @@ h1 span {
     font-size: .875rem;
 }
 
+.card-container {
+    display: grid;
+    gap: 2em;
+}
+
 @media (max-width: 800px) {
     body {
-        font-size: .6876rem;
+        font-size: .687rem;
     }
 
     .container {
         width: 80%;
         max-width: 400px;
         margin-top: 8em;
+    }
+
+    .title {
+        margin-bottom: 6em;
     }
 }
 

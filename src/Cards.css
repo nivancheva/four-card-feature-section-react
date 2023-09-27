@@ -1,0 +1,72 @@
+.cards {
+    background-color: white;
+    display: grid;
+    text-align: left;
+    padding: 2em;
+
+    border-radius: .5em;
+    overflow: hidden;
+    box-shadow: hsl(213, 35%, 80%) 0px 5px 15px;
+    line-height: 2;
+}
+
+.cards::before {
+    content: '';
+    position: absolute;
+    display: block;
+    left: 0;
+    right: 0;
+    top: 0;
+    border: 2px solid;
+    z-index: 1;
+}
+
+.card-color-cyan {
+    position: relative;
+}
+
+.card-color-red {
+    position: relative;
+}
+
+.card-color-orange {
+    position: relative;
+}
+
+.card-color-blue {
+    position: relative;
+}
+
+.card-color-cyan:before {
+    border: 2px solid var(--clr-cyan);
+}
+
+.card-color-red:before {
+    border: 2px solid var(--clr-red);
+}
+
+.card-color-orange:before {
+    border: 2px solid var(--clr-orange);
+}
+
+.card-color-blue:before {
+    border: 2px solid var(--clr-blue);
+}
+
+.card-title {
+    color: var(--clr-dark-blue)
+}
+
+.card-text {
+    margin-bottom: 2em;
+    width: 80%;
+}
+
+img {
+    justify-self: end;
+    width: 20%;
+}
+
+@media (min-width: 801px) {
+  
+}

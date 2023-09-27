@@ -14,12 +14,13 @@ function App() {
           <p>Our Artificial Intelligence powered tools use millions of project data points to ensure that your project is successful</p>
         </div>
 
-        <div className='card container'></div>
+        <div className='card-container'>
           {cards.map((card, idx) => {
             return (
               <Cards key={idx} {...card}/>
             )
           })}
+        </div>
         
       </div>
     </main>
