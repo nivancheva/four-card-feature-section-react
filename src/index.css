@@ -34,4 +34,5 @@ body {
     font-weight: var(--fw-regular);
     font-size: .9375rem;
     color: var(--clr-gray);
+    background-color: var(--clr-light-gray);
 }
