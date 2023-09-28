@@ -9,6 +9,9 @@
     display: grid;
     justify-items: center;
     text-align: center;
+    width: 80%;
+    max-width: 400px;
+    margin-top: 8em;
 }
 
 h1 {
@@ -23,6 +26,10 @@ h1 span {
     font-weight: var(--fw-regular);
 }
 
+.title {
+    margin-bottom: 6em;
+}
+
 .title p {
     font-size: .875rem;
 }
@@ -32,23 +39,11 @@ h1 span {
     gap: 2em;
 }
 
-@media (max-width: 800px) {
+@media (min-width: 800px) {
     body {
-        font-size: .687rem;
+        font-size: .9375rem;
     }
 
-    .container {
-        width: 80%;
-        max-width: 400px;
-        margin-top: 8em;
-    }
-
-    .title {
-        margin-bottom: 6em;
-    }
-}
-
-@media (min-width: 801px) {
     .container {
         max-width: 1200px;
         width: 90%;
@@ -61,7 +56,6 @@ h1 span {
     }
 
     .card-container {
-        gap: 2em;
         grid-template-columns: repeat(3, 1fr);
         grid-template-rows: repeat(4, 1fr);
     }

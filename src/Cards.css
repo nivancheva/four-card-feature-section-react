@@ -3,6 +3,7 @@
     display: grid;
     text-align: left;
     padding: 2em;
+    position: relative;
 
     border-radius: .5em;
     overflow: hidden;
@@ -17,40 +18,24 @@
     left: 0;
     right: 0;
     top: 0;
-    border: 2px solid;
     z-index: 1;
+    border: 2px solid var(--card-color);
 }
 
 .card-color-cyan {
-    position: relative;
+    --card-color: var(--clr-cyan);
 }
 
 .card-color-red {
-    position: relative;
+    --card-color: var(--clr-red);
 }
 
 .card-color-orange {
-    position: relative;
+    --card-color: var(--clr-orange);
 }
 
 .card-color-blue {
-    position: relative;
-}
-
-.card-color-cyan:before {
-    border: 2px solid var(--clr-cyan);
-}
-
-.card-color-red:before {
-    border: 2px solid var(--clr-red);
-}
-
-.card-color-orange:before {
-    border: 2px solid var(--clr-orange);
-}
-
-.card-color-blue:before {
-    border: 2px solid var(--clr-blue);
+    --card-color: var(--clr-blue);
 }
 
 .card-title {
@@ -59,7 +44,6 @@
 
 .card-text {
     margin-bottom: 2em;
-    width: 80%;
 }
 
 img {

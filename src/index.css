@@ -32,7 +32,7 @@ img, picture, video, canvas, svg {
 body {
     font-family: 'Poppins', sans-serif;
     font-weight: var(--fw-regular);
-    font-size: .9375rem;
+    font-size: .687rem;
     color: var(--clr-gray);
     background-color: var(--clr-light-gray);
 }
