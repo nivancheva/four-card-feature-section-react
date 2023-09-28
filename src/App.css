@@ -6,8 +6,6 @@
 }
 
 .container {
-    display: grid;
-    justify-items: center;
     text-align: center;
     width: 80%;
     max-width: 400px;
@@ -28,6 +26,7 @@ h1 span {
 
 .title {
     margin-bottom: 6em;
+    margin-inline: auto;
 }
 
 .title p {
